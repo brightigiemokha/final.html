@@ -1,4 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+*{
+    margin: 0.35;
+    padding: 0.35;
+    border: none;
+}
+
 body{
     font-family: roboto, sans-serif;
+    font-weight: 400;
 }
