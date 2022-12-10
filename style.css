@@ -9,4 +9,11 @@
 body{
     font-family: roboto, sans-serif;
     font-weight: 400;
+    color:#3a3a3a
+}
+
+.mheading{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: aqua;
 }
