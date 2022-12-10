@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
 
 *{
-    margin: 0;
-    padding: 0.10;
+    margin: 1;
+    padding: 1;
     border: none;
 }
 
@@ -16,7 +16,7 @@ body{
 .mheading{
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 300%;
+    font-size: 400%;
     float: left;
     color: aqua;
 }
@@ -32,12 +32,12 @@ body{
     margin-right: 30px;
     list-style-type: none;
     float: right;
-    border: rgb(156, 222, 222);
-    border-radius: 50%;
 }
 .navigator a{
     text-decoration: none;
     color: rgb(156, 222, 222);
+    border: 2px solid rgb(245, 245, 245);
+    border-radius: 20%;
 
 }
 a:hover {
@@ -45,5 +45,5 @@ a:hover {
     color: rgb(225, 10, 10);
 }
 .mheading, .navigator {
-line-height: 60px;
+line-height: 40px;
 }
