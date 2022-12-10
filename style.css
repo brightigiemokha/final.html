@@ -9,11 +9,38 @@
 body{
     font-family: roboto, sans-serif;
     font-weight: 400;
-    color:#3a3a3a
+    background-color: #3a3a3a;
+    color: aquamarine;
 }
 
 .mheading{
     text-transform: uppercase;
     letter-spacing: 4px;
+    font-size: 300%;
+    float: left;
     color: aqua;
+}
+.mheading:hover {
+    text-decoration: none;
+    color: rgb(46, 44, 44);
+}
+.navigator{
+    letter-spacing: 3px;
+    font-size: 150%;
+}
+.navigator li{
+    margin-right: 30px;
+    list-style-type: none;
+    float: right;
+    border: rgb(156, 222, 222);
+    border-radius: 50%;
+}
+.navigator a{
+    text-decoration: none;
+    color: rgb(156, 222, 222);
+
+}
+a:hover {
+    text-decoration: none;
+    color: rgb(225, 10, 10);
 }
