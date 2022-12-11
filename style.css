@@ -144,3 +144,22 @@ line-height: 40px;
         position: relative;
     }
 
+   /*second trimester words*/
+   #swords{
+    font-size: 20px;
+    text-justify: auto;
+}
+#swords h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+}
+#swords h2, h3 {
+    font-size: 30px;
+    text-align: left;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+}
