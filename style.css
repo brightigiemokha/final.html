@@ -113,3 +113,23 @@ line-height: 40px;
             transform: scale(1.1);
         }
     }
+    /*first trimester words*/
+    #fwords{
+        font-size: 20px;
+        text-justify: auto;
+    }
+    #fwords h1 {
+        font-size: 40px;
+        text-align: center;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+
+    }
+    #fwords h2, h3 {
+        font-size: 30px;
+        text-align: left;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+
+    }
+
