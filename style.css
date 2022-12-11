@@ -132,4 +132,15 @@ line-height: 40px;
         text-transform: capitalize;
 
     }
+    /*first trimester pictures down*/
+    #fpictdown {
+        clear: both;
+        line-height: 0;
+        columns: 2;
+        column-gap: 1;
+    }
+    #fpictdown {
+        height: 40px;
+        position: relative;
+    }
 
