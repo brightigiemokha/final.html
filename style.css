@@ -85,3 +85,31 @@ line-height: 40px;
     text-align: center;
     text-decoration-line: underline;
 }
+
+/*the first trimester picture*/
+#fpic {
+    height: 400px;
+    width: 100%;
+    background: url(image/maybe.jpeg) no-repeat center center;
+    background-blend-mode: lighten;
+    /*this is part of the zoom settings*/
+    animation-name: fpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+#fzoomin {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*this create the zoom*/
+    @keyframes fpiczoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
