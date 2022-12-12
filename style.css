@@ -163,3 +163,20 @@ line-height: 40px;
     text-transform: capitalize;
 
 }
+/*the registration picture*/
+#rpic {
+    height: 400px;
+    width: 800px;
+    object-fit: cover;
+    background: url(image/gene.webp) no-repeat center center;
+    /*this is part of the zoom settings*/
+    animation-name: bpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+    
+}
+#rzoomin {
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+}
