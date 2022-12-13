@@ -11,6 +11,7 @@ body{
     font-weight: 400;
     background-color: #3a3a3a;
     color: gold;
+    text-align: justify;
 }
 /*the main heading*/
 .mheading{
@@ -19,6 +20,7 @@ body{
     font-size: 400%;
     float: left;
     color: rgb(211, 190, 73);
+    margin-bottom: 3%;
 }
 .mheading:hover {
     text-decoration: none;
@@ -165,9 +167,10 @@ line-height: 40px;
 }
 /*the registration picture*/
 #rpic {
-    height: 400px;
+    height: 50%;
     width: 800px;
-    object-fit: cover;
+    position: absolute;
+    float: right;
     background: url(image/gene.webp) no-repeat center center;
     /*this is part of the zoom settings*/
     animation-name: bpiczoom;
@@ -176,7 +179,54 @@ line-height: 40px;
     
 }
 #rzoomin {
-    width: 800px;
+    width: 50%;
     height: 400px;
     overflow: hidden;
+}
+#rpic2 {
+        height: 50%;
+        width: 50%;
+        position: absolute;
+        float: right;
+        background: url(image/sle.webp) no-repeat center center;
+        /*this is part of the zoom settings*/
+        animation-name: bpiczoom;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        
+    }
+    #rzoomin {
+        width: 50%;
+        height: 400px;
+        overflow: hidden;
+    }
+
+
+/*the contact picture*/
+#cpic {
+    background: url(image/smi.jpeg) no-repeat center;
+    height: 400px;
+    width: 100%;
+    filter: blur(3px);
+    background-size: cover;
+    /*this is part of the zoom settings*/
+    animation-name: cpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: forwards;
+}
+#czoomin {
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+}
+
+/*the text for contact area*/
+#contt {
+    font-size: 20px;
+    text-justify: auto;
+}
+#contt h1 {
+    font-size: 40px;
+    text-align: center;
+    text-decoration-line: underline;
 }
