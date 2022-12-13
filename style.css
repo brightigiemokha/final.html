@@ -168,7 +168,7 @@ line-height: 40px;
 /*the registration picture*/
 #rpic {
     height: 50%;
-    width: 800px;
+    width: 50%;
     position: absolute;
     float: right;
     background: url(image/gene.webp) no-repeat center center;
@@ -185,9 +185,12 @@ line-height: 40px;
 }
 #rpic2 {
         height: 50%;
-        width: 50%;
+        width: 40%;
         position: absolute;
         float: right;
+        position: absolute;
+        right: 0;
+        bottom: 0;
         background: url(image/sle.webp) no-repeat center center;
         /*this is part of the zoom settings*/
         animation-name: bpiczoom;
@@ -196,11 +199,11 @@ line-height: 40px;
         
     }
     #rzoomin {
-        width: 50%;
+        width: 40%;
         height: 400px;
         overflow: hidden;
     }
-
+    
 
 /*the contact picture*/
 #cpic {
@@ -209,6 +212,7 @@ line-height: 40px;
     width: 100%;
     filter: blur(3px);
     background-size: cover;
+    
     /*this is part of the zoom settings*/
     animation-name: cpiczoom;
     animation-duration: 10s;
@@ -229,4 +233,17 @@ line-height: 40px;
     font-size: 40px;
     text-align: center;
     text-decoration-line: underline;
+}
+#regform{
+    font-size: 30px;
+    text-justify: auto;
+}
+#regform h1 {
+    font-size: 40px;
+    text-align: left;
+    text-decoration-line: underline;
+    right: 40px;
+}
+#regform form {
+    width: 200px;
 }
