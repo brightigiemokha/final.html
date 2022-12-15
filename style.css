@@ -263,8 +263,12 @@ line-height: 40px;
     text-decoration-line: underline;
     right: 40px;
 }
-#regform form {
-    width: 200px;
+#regform {
+    margin: 150px 10% 0 0;
+    color: #fff;
+    max-width: 400px;
+    left: 10%;
+    padding-left: 30px;
 }
 /*the footer area*/
 footer {
@@ -278,14 +282,15 @@ footer > span {
 }
 
 footer > a {
-    color: white;
+    color: #fff;
     text-decoration: none;
     padding: 0 25px;
     font-size: 2rem;
 }
 
 footer > p {
-    color: white;
+    color: #fff;
     font-size: larger;
     text-align: right;
 }
+
