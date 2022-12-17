@@ -154,6 +154,8 @@ line-height: 40px;
    #swords{
     font-size: 20px;
     text-justify: auto;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 #swords h1 {
     font-size: 40px;
@@ -173,6 +175,8 @@ line-height: 40px;
 #twords{
     font-size: 20px;
     text-justify: auto;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 #twords h1 {
     font-size: 40px;
@@ -305,8 +309,15 @@ footer > p {
     column-count: 3;
 }
 /*small screen size*/
-@media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
+
+@media screen and (max-width: 1200px) {
+    #mheading {
+        width: 65%;
+        height: 1200px;
+        margin: o auto;
+    }
+    #navigator {
+        padding: 30px 0;
+        margin: 0;
     }
 }
