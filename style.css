@@ -195,15 +195,6 @@ line-height: 40px;
     text-transform: capitalize;
 
 }
-/*the registration picture*/
-
-#regform {
-    background-image: url(image/sle.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-}
     
 
 /*the contact picture*/
@@ -229,18 +220,20 @@ line-height: 40px;
 #contt {
     font-size: 20px;
     text-justify: auto;
+    padding-bottom: 300px;
 }
 #contt h1 {
     font-size: 40px;
     text-align: center;
     text-decoration-line: underline;
+    
 }
+
+/*the text registration area*/
 #regform{
     font-size: 30px;
     text-justify: auto;
-    border: 2px solid rgb(247, 244, 244);
     max-width: 800px;
-    height:auto
 }
 #regform h1 {
     font-size: 40px;
@@ -251,8 +244,21 @@ line-height: 40px;
 #regform {
     margin: 10px 10% 0 0;
     color: #fff;
-    left: 10%;
+    left: 5%;
     padding-left: 30px;
+}
+/*the registration picture*/
+
+#regform {
+    background-image: url(image/sle.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+    mix-blend-mode: lighten;
+}
+#regpic {
+    margin-left: 300px;
 }
 
 /*the footer area*/
