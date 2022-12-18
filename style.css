@@ -9,19 +9,20 @@
 body{
     font-family: roboto, sans-serif;
     font-weight: 400;
-    background-color: #3a3a3a;
+    background-color:#3a3a3a;
     color: gold;
     text-align: justify;
-    
+}
+#head{
+    width: 98%;
+    padding-bottom: 1%;
+    margin: auto;
 }
 /*the main heading*/
-.header{
-    padding-bottom: 15%;
-}
 .mheading{
     text-transform: uppercase;
     letter-spacing: 4px;
-    font-size: 400%;
+    font-size: 300%;
     float: left;
     color: rgb(211, 190, 73);
 }
@@ -31,12 +32,12 @@ body{
 }
 /*the navigation settings*/
 .navigator{
-    letter-spacing: 1px;
-    font-size: 140%;
+    letter-spacing: 0.5px;
+    font-size: 15px;
 }
 
 .navigator li{
-    margin-right: 20px;
+    margin-right: 5px;
     list-style-type: none;
     float: right;
 }
@@ -52,11 +53,12 @@ a:hover {
     color: rgb(225, 10, 10);
 }
 .mheading, .navigator {
-line-height: 40px;
+line-height: 20px;
 }
 /*the introduction picture*/
 #bpic {
-    background: url(image/may.webp) no-repeat center center;
+    background: url(image/may.webp) center;
+    background-repeat: no-repeat;
     height: 400px;
     width: 100%;
     /*this is part of the zoom settings*/
@@ -65,9 +67,10 @@ line-height: 40px;
     animation-fill-mode: backwards;
 }
 #zoomin {
-    width: 100%;
+    width: 98%;
     height: 400px;
     overflow: hidden;
+    margin: auto;
 }
 /*this create the zoom*/
     @keyframes bpiczoom {
@@ -106,10 +109,11 @@ line-height: 40px;
     animation-fill-mode: backwards;
 }
 #fzoomin {
-    width: 100%;
+    width: 98%;
     height: 400px;
     overflow: hidden;
     position: relative;
+    margin: auto;
     
 }
 /*this create the zoom*/
@@ -263,6 +267,11 @@ line-height: 40px;
 }
 
 /*the footer area*/
+.down {
+    width: 98%;
+    margin: auto;
+}
+
 footer {
     background-color: purple;
     padding: 0.1em;
@@ -290,15 +299,10 @@ footer > p {
     column-count: 3;
 }
 /*small screen size*/
-
 @media screen and (max-width: 400px) {
-    #mheading {
-        width: 65%;
-        height: 1200px;
-        margin: o auto;
+    .mheading{
+        letter-spacing: 2px;
+        font-size: 5%;
     }
-    #navigator {
-        padding: 30px 0;
-        margin: 0;
-    }
+    
 }
