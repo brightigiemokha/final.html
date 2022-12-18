@@ -243,9 +243,10 @@ line-height: 40px;
 }
 #regform {
     margin: 10px 10% 0 0;
-    color: #fff;
+    color: rgb(37, 20, 223);
     left: 5%;
     padding-left: 30px;
+    padding-top: 20px;
 }
 /*the registration picture*/
 
