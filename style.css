@@ -56,9 +56,9 @@ line-height: 40px;
 }
 /*the introduction picture*/
 #bpic {
+    background: url(image/may.webp) no-repeat center center;
     height: 400px;
     width: 100%;
-    background: url(image/may.webp) no-repeat center center;
     /*this is part of the zoom settings*/
     animation-name: bpiczoom;
     animation-duration: 10s;
@@ -291,7 +291,7 @@ footer > p {
 }
 /*small screen size*/
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 400px) {
     #mheading {
         width: 65%;
         height: 1200px;
