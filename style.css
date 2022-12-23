@@ -297,7 +297,9 @@ line-height: 20px;
 #regpic {
     margin-left: 300px;
 }
-
+#regpp{
+    align-items: center;
+}
 /*the footer area*/
 .down {
     width: 98%;
