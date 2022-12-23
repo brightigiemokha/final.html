@@ -92,7 +92,7 @@ line-height: 20px;
     margin-left: 80px;
 }
 #intro h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
 }
@@ -134,14 +134,14 @@ line-height: 20px;
         margin-left: 80px;
     }
     #fwords h1 {
-        font-size: 40px;
+        font-size: 30px;
         text-align: center;
         text-decoration-line: underline;
         text-transform: capitalize;
 
     }
     #fwords h2, h3 {
-        font-size: 30px;
+        font-size: 20px;
         text-align: left;
         text-decoration-line: underline;
         text-transform: capitalize;
@@ -166,14 +166,14 @@ line-height: 20px;
     margin-left: 80px;
 }
 #swords h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
     text-transform: capitalize;
 
 }
 #swords h2, h3 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     text-decoration-line: underline;
     text-transform: capitalize;
@@ -191,14 +191,14 @@ line-height: 20px;
     margin-left: 80px;
 }
 #twords h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
     text-transform: capitalize;
 
 }
 #twords h2, h3 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: left;
     text-decoration-line: underline;
     text-transform: capitalize;
@@ -256,7 +256,7 @@ line-height: 20px;
     padding-bottom: 300px;
 }
 #contt h1 {
-    font-size: 40px;
+    font-size: 30px;
     text-align: center;
     text-decoration-line: underline;
     
@@ -320,12 +320,12 @@ footer > a {
     color: #fff;
     text-decoration: none;
     padding: 0 25px;
-    font-size: 2rem;
+    font-size: 0.80rem;
 }
 
 footer > p {
     color: #fff;
-    font-size: larger;
+    font-size: 10px;
     text-align: right;
 }
 
@@ -336,6 +336,39 @@ footer > p {
 @media all and (max-width: 500px) {
     body{
         font-weight: 200;
+    }
+   
+    .navigator{
+        letter-spacing: 0.2px;
+        font-size: 7px;
+    }
+    
+    .navigator li{
+        margin-left: 5px;
+        list-style-type: none;
+        float: left;
+        position: relative;
+        display:inline-block;
+    }
+    .navigator a{
+        text-decoration: none;
+        color: rgb(211, 190, 73);
+        border: 1px solid rgb(245, 245, 245);
+        border-radius: 10%;
+    
+    }
+    #swords h2, h3 {
+        font-size: 17px;
+        text-align: left;
+        text-decoration-line: underline;
+        text-transform: capitalize;
+    }
+    #swords h1 {
+        font-size: 20px;
+
+    }
+    #swords {
+        font-size: 13px;
     }
     footer > a {
         color: #fff;
@@ -348,6 +381,9 @@ footer > p {
     footer > p {
         font-size: 0.7rem;
     } 
+    footer span {
+        font-size: 10px;
+    }
 
     /*the main heading*/
     .mheading{
@@ -385,29 +421,20 @@ footer > p {
     text-align: left;
 }
 
-footer > span {
-    color: white;
-}
-
-footer > a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0 25px;
-    font-size: 2rem;
-}
 /*introduction media q*/
 #intro {
-    font-size: 17px;
+    font-size: 10px;
     text-justify: auto;
-    margin-right: 50px;
-    margin-left: 50px;
+    justify-content: center;
+    margin-right: 2px;
+    margin-left: 2px;
 }
 #intro h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 /*first trimester q*/
 #fwords h1 {
-    font-size: 30px;
+    font-size: 20px;
 }
 #fwords {
     font-size: 17px;
@@ -415,4 +442,5 @@ footer > a {
     margin-right: 50px;
     margin-left: 50px;
 }
+
 }
