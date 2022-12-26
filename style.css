@@ -117,7 +117,6 @@ line-height: 20px;
     height: 500px;
     overflow: hidden;
     position: relative;
-    margin: auto;
     
 }
 /*this create the zoom*/
@@ -232,9 +231,10 @@ line-height: 20px;
 
 }
 #tpic {
-    background: url(image/ttttrrtr.png) no-repeat center;
-    height: 450px;
-    width: 98%;
+    background: url(image/ttttrrtr.png) center;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
     background-size: cover;
     /*this is part of the zoom settings*/
     animation-name: tpiczoom;
@@ -244,8 +244,9 @@ line-height: 20px;
 
 #tzoomin {
     height: 450px;
-    width: 100%;
+    width: 98%;
     overflow: hidden;
+    margin: auto;
 }   
 /*this create the zoom*/
 @keyframes tpiczoom {
@@ -394,6 +395,8 @@ footer > p {
     }
     #swords {
         font-size: 13px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
     footer > a {
         color: #fff;
@@ -451,8 +454,8 @@ footer > p {
     font-size: 10px;
     text-justify: auto;
     justify-content: center;
-    margin-right: 2px;
-    margin-left: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 #intro h1 {
     font-size: 20px;
@@ -464,8 +467,17 @@ footer > p {
 #fwords {
     font-size: 17px;
     text-justify: auto;
-    margin-right: 50px;
-    margin-left: 50px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
+/*third trimester q*/
+#twords{
 
+    margin-right: 10px;
+    margin-left: 10px;
+}
+#tpic {
+
+    height: 200px;
+    width: 95%;
 }
