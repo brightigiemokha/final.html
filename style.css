@@ -7,20 +7,21 @@
     border: none;
 }
 
-body{
+body {
     font-family: roboto, sans-serif;
     font-weight: 400;
+    font-size: 20px;
     background-color:#3a3a3a;
     color: gold;
     text-align: justify;
 }
-#head{
+#head {
     width: 98%;
     padding-bottom: 1%;
     margin: auto;
 }
 /*the main heading*/
-.mheading{
+.mheading {
     text-transform: uppercase;
     letter-spacing: 4px;
     font-size: 300%;
@@ -32,17 +33,17 @@ body{
     color: rgb(245, 244, 248);
 }
 /*the navigation settings*/
-.navigator{
+.navigator {
     letter-spacing: 0.5px;
     font-size: 15px;
 }
 
-.navigator li{
+.navigator li {
     margin-right: 5px;
     list-style-type: none;
     float: right;
 }
-.navigator a{
+.navigator a {
     text-decoration: none;
     color: rgb(211, 190, 73);
     border: 2px solid rgb(245, 245, 245);
@@ -60,8 +61,9 @@ line-height: 20px;
 #bpic {
     background: url(image/may.webp) center;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 500px;
     width: 100%;
+    background-size: cover;
     /*this is part of the zoom settings*/
     animation-name: bpiczoom;
     animation-duration: 10s;
@@ -69,7 +71,7 @@ line-height: 20px;
 }
 #zoomin {
     width: 100%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     margin: auto;
 }
@@ -91,6 +93,7 @@ line-height: 20px;
     margin-right: 80px;
     margin-left: 80px;
 }
+
 #intro h1 {
     font-size: 30px;
     text-align: center;
@@ -99,7 +102,7 @@ line-height: 20px;
 
 /*the first trimester picture*/
 #fpic {
-    height: 400px;
+    height: 500px;
     width: 100%;
     background: url(image/maybe.jpeg) no-repeat center center;
     background-blend-mode: lighten;
@@ -111,7 +114,7 @@ line-height: 20px;
 }
 #fzoomin {
     width: 98%;
-    height: 400px;
+    height: 500px;
     overflow: hidden;
     position: relative;
     margin: auto;
@@ -180,9 +183,33 @@ line-height: 20px;
 
 }
 #sgif {
-    margin-top: 50px;
-    margin-left: 400px;
+    background: url(image/2chan.webp) center;
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 100%;
+    background-size: cover;
+    
+    /*this is part of the zoom settings*/
+    animation-name: sgifzoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
 }
+#zoomin {
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+    margin: auto;
+}
+/*this create the zoom*/
+    @keyframes sgifzoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+    }
+
 /*third trimester words*/
 #twords{
     font-size: 20px;
@@ -294,9 +321,7 @@ line-height: 20px;
     position: relative;
     mix-blend-mode: lighten;
 }
-#regpic {
-    margin-left: 300px;
-}
+
 #regpp{
     align-items: center;
 }
@@ -320,12 +345,12 @@ footer > a {
     color: #fff;
     text-decoration: none;
     padding: 0 25px;
-    font-size: 0.80rem;
+    font-size: 1rem;
 }
 
 footer > p {
     color: #fff;
-    font-size: 10px;
+    font-size: 1px;
     text-align: right;
 }
 
