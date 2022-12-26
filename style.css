@@ -398,6 +398,12 @@ footer > p {
         margin-left: 10px;
         margin-right: 10px;
     }
+    #sgif {
+
+        height: 200px;
+        width: 100%;
+    }
+    /* footer media q*/
     footer > a {
         color: #fff;
         text-decoration: none;
@@ -480,4 +486,5 @@ footer > p {
 
     height: 200px;
     width: 95%;
+}
 }
