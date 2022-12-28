@@ -19,43 +19,43 @@ body {
     width: 98%;
     padding-bottom: 1%;
     margin: auto;
+    align-items: center;
 }
 /*the main heading*/
 .mheading {
     text-transform: uppercase;
-    letter-spacing: 4px;
-    font-size: 300%;
-    float: left;
+    letter-spacing: 8px;
+    font-size: 4rem;
+    text-align: center;
     color: rgb(211, 190, 73);
 }
 .mheading:hover {
     text-decoration: none;
-    color: rgb(245, 244, 248);
+    color: rgb(225, 10, 10);
 }
 /*the navigation settings*/
 .navigator {
-    letter-spacing: 0.5px;
-    font-size: 15px;
+    letter-spacing: 1px;
+    font-size: 30px;
 }
 
 .navigator li {
     margin-right: 5px;
     list-style-type: none;
-    float: right;
+    text-align: center;
+    padding: 0.2rem;
+    
 }
 .navigator a {
     text-decoration: none;
     color: rgb(211, 190, 73);
-    border: 2px solid rgb(245, 245, 245);
+    border: 1px solid rgb(245, 245, 245);
     border-radius: 10%;
 
 }
 a:hover {
     text-decoration: none;
     color: rgb(225, 10, 10);
-}
-.mheading, .navigator {
-line-height: 20px;
 }
 /*the introduction picture*/
 #bpic {
@@ -328,7 +328,7 @@ line-height: 20px;
 }
 /*the footer area*/
 .down {
-    width: 98%;
+    width: 100%;
     margin: auto;
 }
 
@@ -353,6 +353,7 @@ footer > p {
     color: #fff;
     font-size: 10px;
     text-align: right;
+    padding-right: 1px;
 }
 
 #photos {
@@ -487,4 +488,25 @@ footer > p {
     height: 200px;
     width: 95%;
 }
+/*regiater now mq*/
+form {
+    display: flex;
+    flex-direction: column;
+    }
+    
+    form div {
+    width: 100%;
+    margin: 10px 0;
+    display: flex;
+    }
+    
+    form input {
+    width: 97%;
+    height: 1.5rem;
+    }
+    
+    form label {
+    font-size: 1rem;
+    padding-right: 10px;
+    }
 }
