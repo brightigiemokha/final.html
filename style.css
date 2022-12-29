@@ -250,7 +250,7 @@ a:hover {
     display: inline-block;
 }
 #sec-pix1 {
-    background: url(image/preg.avif) no-repeat center center;
+    background: url(image/doc.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
     width: 22%;
@@ -277,7 +277,7 @@ a:hover {
     display: inline-flex;
 }
 #sec-pix4 {
-    background: url(image/doc.jpeg) no-repeat center center;
+    background: url(image/preg.avif) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
     width: 22%;
@@ -285,6 +285,100 @@ a:hover {
     position: relative;
     display: inline-flex
 }
+#seccpic {
+    float: left;
+    width: 40%;
+}
+#sec-pix5 {
+    width: 100%;
+    height: 600px;
+    background: url(image/2repl.jpeg) no-repeat center center;
+    background-blend-mode: lighten;
+    background-size: cover;
+    display: block;
+   
+    /*this is part of the zoom settings*/
+    animation-name: fpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+#seccpic {
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*this create the zoom*/
+    @keyframes fpiczoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+
+}
+
+#sec-pix6 {
+    width: 100%;
+    height: 600px;
+    background: url(image/repl.webp) no-repeat center center;
+    background-blend-mode: lighten;
+    background-size: cover;
+    display: block;
+    /*this is part of the zoom settings*/
+    animation-name: fpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+#seccpic {
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*this create the zoom*/
+    @keyframes fpiczoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+
+}
+#sec-pix7 {
+    width: 100%;
+    height: 600px;
+    background: url(image/del.jpeg) no-repeat center center;
+    background-blend-mode: lighten;
+    background-size: cover;
+    display: block;
+    /*this is part of the zoom settings*/
+    animation-name: fpiczoom;
+    animation-duration: 10s;
+    animation-fill-mode: backwards;
+}
+#seccpic {
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    
+}
+/*this create the zoom*/
+    @keyframes fpiczoom {
+        from {
+            transform: scale(1);
+        }
+        to {
+            transform: scale(1.1);
+        }
+
+}
+
 /*third trimester words*/
 #twords{
     font-size: 20px;
