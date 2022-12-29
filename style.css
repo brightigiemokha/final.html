@@ -193,32 +193,32 @@ a:hover {
 }
 
     /*first trimester words*/
-    #fwords{
+#fwords{
         font-size: 20px;
         text-justify: auto;
         margin-right: 80px;
         margin-left: 80px;
     }
-    #fwords h1 {
+#fwords h1 {
         font-size: 30px;
         text-align: center;
         text-decoration-line: underline;
         text-transform: capitalize;
 
     }
-    #fwords h2, h3 {
+#fwords h2, h3 {
         font-size: 20px;
         text-align: left;
         text-decoration-line: underline;
         text-transform: capitalize;
     }
    /*second trimester words*/
-   #secwords {
+#secwords {
     float: right;
     width: 58%;
    }
 
-   #swords {
+#swords {
     font-size: 20px;
     text-justify: auto;
     margin-right: 80px;
@@ -288,14 +288,34 @@ a:hover {
 #seccpic {
     float: left;
     width: 40%;
+    height: 600px;
+    padding-left: 20px;
+    border: 4px solid white;
+
+}
+#seccpicc {
+    float: left;
+    width: 40%;
+    height: 600px;
+    padding-left: 20px;
+    border: 4px solid white;
+}
+#seccpiccc {
+    float: left;
+    width: 40%;
+    height: 600px;
+    padding-left: 20px;
+    border: 4px solid white;
 }
 #sec-pix5 {
     width: 100%;
     height: 600px;
+    margin-bottom: 2rem;
     background: url(image/2repl.jpeg) no-repeat center center;
     background-blend-mode: lighten;
     background-size: cover;
-    display: block;
+    display: flex;
+    flex-direction: column;
    
     /*this is part of the zoom settings*/
     animation-name: fpiczoom;
@@ -322,17 +342,18 @@ a:hover {
 
 #sec-pix6 {
     width: 100%;
-    height: 600px;
+    height: 400px;
+    margin-bottom: 2rem;
     background: url(image/repl.webp) no-repeat center center;
     background-blend-mode: lighten;
     background-size: cover;
-    display: block;
+
     /*this is part of the zoom settings*/
     animation-name: fpiczoom;
     animation-duration: 10s;
     animation-fill-mode: backwards;
 }
-#seccpic {
+#seccpicc {
     width: 40%;
     height: 600px;
     overflow: hidden;
@@ -352,22 +373,24 @@ a:hover {
 #sec-pix7 {
     width: 100%;
     height: 600px;
+    margin-bottom: 2rem;
     background: url(image/del.jpeg) no-repeat center center;
     background-blend-mode: lighten;
     background-size: cover;
-    display: block;
+
     /*this is part of the zoom settings*/
     animation-name: fpiczoom;
     animation-duration: 10s;
     animation-fill-mode: backwards;
 }
-#seccpic {
+#seccpiccc {
     width: 40%;
     height: 600px;
     overflow: hidden;
     position: relative;
-    
+
 }
+
 /*this create the zoom*/
     @keyframes fpiczoom {
         from {
@@ -498,8 +521,35 @@ a:hover {
     padding-left: 30px;
     padding-top: 20px;
 }
-/*the registration picture*/
+/*footer*/
+#footer {
+    width: 100%;
+    height: 50px;
+}
+#social-icon {
+    border: 2px solid rgb(248, 246, 248);
+    background-color: black;
+    text-align: center;
+    padding-top: 40px;
+}
+footer > span {
+    font-size: 20px;
+    color: rgb(248, 246, 248);
+}
 
+footer > a {
+    color: rgb(248, 246, 248);
+    text-decoration: none;
+    padding: 0 25px;
+    font-size: 5rem;
+    text-align: center;
+}
+
+footer > p {
+    color: rgb(248, 246, 248);
+    font-size: 20px;
+    text-align: center;
+}
 
 /*small screen size*/
 @media all and (max-width: 500px) {
@@ -526,42 +576,140 @@ a:hover {
         border-radius: 10%;
     
     }
-    #swords h2, h3 {
-        font-size: 17px;
-        text-align: left;
-        text-decoration-line: underline;
-        text-transform: capitalize;
+    #intro-text {
+        padding-left: 60px;
     }
-    #swords h1 {
-        font-size: 20px;
-
+    #firsttrim {
+        padding-left: 50px;
     }
     #swords {
-        font-size: 13px;
-        margin-left: 10px;
-        margin-right: 10px;
+        padding-left: 50px;
     }
-    #sgif {
-
-        height: 200px;
+    #intro-pix {
         width: 100%;
+        height: 200px;
+        border: 2px white;
+        padding-left: 40px;
+        padding-right: 40px;
+        float: left;
+        margin-bottom: 20px;
     }
-    /* footer media q*/
-    footer > a {
-        color: #fff;
-        text-decoration: none;
-        padding: 0 10px;
-        font-size: 0.7rem;
-        text-align: center;
+    #intro-pix1 {
+        width: 22%;
+        height: 200px;
+    }
+    #intro-pix2 {
+        width: 22%;
+        height: 200px;
+    }
+    #intro-pix3 {
+        width: 22%;
+        height: 200px;
+    }
+    #intro-pix4 {
+        width: 22%;
+        height: 200px;
+    }
+    /*second trimester*/
+    #secondt {
+        padding-left: 40px;
+        padding-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    #sec-pix1 {
+        width: 22%;
+        height: 200px;
+    }
+    #sec-pix2 {
+        width: 22%;
+        height: 200px;
+    }
+    #sec-pix3 {
+        width: 22%;
+        height: 200px;
+    }
+    #sec-pix4 {
+        width: 22%;
+        height: 200px;
+    }
+    #seccpic {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        padding-left: 50px;
+        }
+    #seccpicc {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        padding-left: 50px;
+         }
+    #seccpiccc {
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        height: 300px;
+        padding-left: 50px;
+        }
+    #secwords {
+            width: 100%;
+            padding-left: 50px;
+            padding-top: 0px;
+        }
+    #swords h2, h3 {
+            font-size: 17px;
+            text-align: left;
+            text-decoration-line: underline;
+            text-transform: capitalize;
+        }
+     #swords h1 {
+            font-size: 20px;
+    
+        }
+        #swords {
+            font-size: 17px;
+            margin-left: 30px;
+            margin-right: 10px;
+            margin-top: 0px;
+        }
+
+/*first trimester*/
+    #firsttrim {
+        float: none;
+        width: 100%;
+    
+    }
+    #firstvid {
+        float: none;
+        width: 98%;
+        height: 300px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-left: 10px;
+        padding-bottom: 10px;
     }
     
-    footer > p {
-        font-size: 0.7rem;
-    } 
-    footer span {
-        font-size: 10px;
+    #firstpicc {
+        float: none;
+        width: 98%;
+        height: 300px;
+        padding-right: 0px;
+        padding-left: 50px;
+        padding-top: 10px;
+        display: block;
+        display: flex;
+        flex-direction: column;
+
+    }
+    #firstpic1 {
+        width: 100%;
+        height: 300px;
     }
 
+   
     /*the main heading*/
     .mheading{
         text-transform: uppercase;
@@ -591,19 +739,14 @@ a:hover {
         margin-left: 10px;
        
     }
-    /*footer media q*/
-    footer {
-    background-color: purple;
-    padding: 0.1rem;
-    text-align: left;
-}
+   
 
 /*introduction media q*/
 #intro {
-    font-size: 10px;
+    font-size: 17px;
     text-justify: auto;
     justify-content: center;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 10px;
 }
 #intro h1 {
@@ -616,13 +759,13 @@ a:hover {
 #fwords {
     font-size: 17px;
     text-justify: auto;
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 10px;
 }
 /*third trimester q*/
 #twords{
 
-    margin-right: 10px;
+    margin-right: 30px;
     margin-left: 10px;
 }
 #tpic {
@@ -650,5 +793,30 @@ form {
     form label {
     font-size: 1rem;
     padding-right: 10px;
+    }
+    #footer {
+        width: 100%;
+        height: 50px;
+        border: 2px solid rgb(248, 246, 248);
+        text-align: center;
+        padding-left: 50px;
+        padding-top: 20px;
+    }
+    footer > span {
+        font-size: 10px;
+        color: rgb(248, 246, 248);
+    }
+    
+    footer > a {
+        color: rgb(248, 246, 248);
+        text-decoration: none;
+        padding: 0 25px;
+        font-size: 2rem;
+    }
+    
+    footer > p {
+        color: rgb(248, 246, 248);
+        font-size: 10px;
+        text-align: center;
     }
 }
