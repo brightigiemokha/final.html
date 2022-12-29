@@ -380,6 +380,56 @@ a:hover {
 }
 
 /*third trimester words*/
+#thirdpix {
+    width: 100%;
+    height: 600px;
+    border: 2px white;
+    padding-left: 90px;
+    padding-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:relative;
+    display: inline-block;
+}
+
+
+#thirdpix1 {
+    background: url(image/deliver.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position:relative;
+    display: inline-flex;
+}
+#thirdpix2 {
+    background: url(image/delivery2.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
+}
+#thirdpix3 {
+    background: url(image/father2.avif) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
+}
+#thirdpix4 {
+    background: url(image/baby.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex
+}
+
 #twords{
     font-size: 20px;
     text-justify: auto;
@@ -428,37 +478,6 @@ a:hover {
     }
 }
 
-/*the contact picture*/
-#cpic {
-    background: url(image/smi.jpeg) no-repeat center;
-    height: 400px;
-    width: 100%;
-    filter: blur(3px);
-    background-size: cover;
-    
-    /*this is part of the zoom settings*/
-    animation-name: cpiczoom;
-    animation-duration: 10s;
-    animation-fill-mode: forwards;
-}
-#czoomin {
-    height: 400px;
-    width: 100%;
-    overflow: hidden;
-}
-
-/*the text for contact area*/
-#contt {
-    font-size: 20px;
-    text-justify: auto;
-    padding-bottom: 300px;
-}
-#contt h1 {
-    font-size: 30px;
-    text-align: center;
-    text-decoration-line: underline;
-    
-}
 
 /*the text registration area*/
 #regform{
@@ -474,32 +493,14 @@ a:hover {
 }
 #regform {
     margin: 10px 10% 0 0;
-    color: rgb(37, 20, 223);
+    color: rgb(247, 246, 249);
     left: 5%;
     padding-left: 30px;
     padding-top: 20px;
 }
-#regform {
-    margin-top: 200px;
-}
 /*the registration picture*/
 
-#regform {
-    background-image: url(image/sle.webp);
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 100vh;
-    position: relative;
-    mix-blend-mode: lighten;
-}
 
-#regpp{
-    align-items: center;
-}
-
-#photos {
-    column-count: 3;
-}
 /*small screen size*/
 @media all and (max-width: 500px) {
     body{
