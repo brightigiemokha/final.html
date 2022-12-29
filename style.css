@@ -35,7 +35,7 @@ body {
 }
 /*the navigation settings*/
 .navigator {
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     font-size: 30px;
 }
 
@@ -43,7 +43,8 @@ body {
     margin-right: 5px;
     list-style-type: none;
     text-align: center;
-    padding: 0.2rem;
+    padding: 0.4rem;
+    float: left;
     
 }
 .navigator a {
@@ -90,7 +91,7 @@ a:hover {
 #intro {
     font-size: 20px;
     text-justify: auto;
-    margin-right: 80px;
+    margin-right: 40px;
     margin-left: 80px;
 }
 
@@ -146,19 +147,26 @@ a:hover {
 #firsttrim {
     float: left;
     width: 58%;
+
 }
 #firstvid {
     float: right;
     width: 40%;
     height: 600px;
-    padding-right: 10px;
+    padding-right: 20px;
     padding-top: 30px;
 }
 
-#fpic {
-    height: 500px;
+#firstpicc {
+    float: right;
+    width: 40%;
+    height: 600px;
+    padding-right: 20px;
+}
+#firstpic1 {
     width: 100%;
-    background: url(image/maybe.jpeg) no-repeat center center;
+    height: 600px;
+    background: url(image/scan.avif) no-repeat center center;
     background-blend-mode: lighten;
     background-size: cover;
     /*this is part of the zoom settings*/
@@ -166,9 +174,9 @@ a:hover {
     animation-duration: 10s;
     animation-fill-mode: backwards;
 }
-#fzoomin {
-    width: 98%;
-    height: 500px;
+#firstpicc {
+    width: 40%;
+    height: 600px;
     overflow: hidden;
     position: relative;
     
@@ -181,7 +189,9 @@ a:hover {
         to {
             transform: scale(1.1);
         }
-    }
+
+}
+
     /*first trimester words*/
     #fwords{
         font-size: 20px;
@@ -203,16 +213,8 @@ a:hover {
         text-transform: capitalize;
 
     }
-    /*first trimester pictures down*/
-    #fpicsec {
-        padding: 10px;
-        position: relative;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        margin-left: 300px;
-       
-    }
     
+
 
    /*second trimester words*/
    #swords{
@@ -235,34 +237,49 @@ a:hover {
     text-transform: capitalize;
 
 }
-#sgif {
-    background: url(image/2chan.webp) center;
-    background-repeat: no-repeat;
-    height: 700px;
+#secondt {
     width: 100%;
+    height: 600px;
+    border: 2px white;
+    padding-left: 90px;
+    padding-right: 80px;
+}
+#sec-pix1 {
+    background: url(image/inspire.avif) no-repeat center center;
     background-size: cover;
-    
-    /*this is part of the zoom settings*/
-    animation-name: sgifzoom;
-    animation-duration: 10s;
-    animation-fill-mode: backwards;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
 }
-#zoomin {
-    width: 100%;
-    height: 700px;
-    overflow: hidden;
-    margin: auto;
+#sec-pix2 {
+    background: url(image/inspire2.avif) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
 }
-/*this create the zoom*/
-    @keyframes sgifzoom {
-        from {
-            transform: scale(1);
-        }
-        to {
-            transform: scale(1.1);
-        }
-    }
-
+#sec-pix3 {
+    background: url(image/test.avif) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
+}
+#sec-pix4 {
+    background: url(image/2chan.webp) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex
+}
 /*third trimester words*/
 #twords{
     font-size: 20px;
