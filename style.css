@@ -515,7 +515,7 @@ a:hover {
 #regform{
     font-size: 30px;
     text-justify: auto;
-    max-width: 800px;
+    width: 40%;
 }
 #regform h1 {
     font-size: 40px;
@@ -579,15 +579,89 @@ input[type=text] {
     border: 4px solid rgb(255, 215, 0);
 
   }
+  #regright {
+    width: 30%;
+    float: right;
+  }
+  #register1 {
+    background: url(image/appoint.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex
+  }
+  #regleft {
+    width: 30%;
+    float: left;
+  }
+  #register2 {
+    background: url(image/doctor.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex
+  }
+  #regipix {
+    width: 100%;
+    height: 600px;
+    border: 2px white;
+    padding-left: 90px;
+    padding-right: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position:relative;
+    display: inline-block;
+}
+
+
+#regipix1 {
+    background: url(image/father2.avif) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position:relative;
+    display: inline-flex;
+}
+#regipix2 {
+    background: url(image/deli.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
+}
+#regipix3 {
+    background: url(image/sle.webp) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex;
+}
+#regipix4 {
+    background: url(image/baby.jpeg) no-repeat center center;
+    background-size: cover;
+    border: 4px solid rgb(245, 245, 245);
+    width: 22%;
+    height: 580px;
+    position: relative;
+    display: inline-flex
+}
 /*footer*/
 
 .social-icon {
     width: 100%;
     height: 20px;
-    border: 2px solid rgb(248, 246, 248);
-    background-color: rgb(58, 15, 231);
     text-align: center;
     padding-top: 40px;
+    position: relative;
 }
 footer > span {
     font-size: 20px;
