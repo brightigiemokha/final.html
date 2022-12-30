@@ -254,8 +254,8 @@ a:hover {
     width: 100%;
     height: 600px;
     border: 2px white;
-    padding-left: 90px;
-    padding-right: 80px;
+    padding-left: 40px;
+    padding-right: 60px;
     margin-top: 10px;
     margin-bottom: 10px;
     position:relative;
@@ -269,6 +269,7 @@ a:hover {
     height: 580px;
     position:relative;
     display: inline-flex;
+    margin-right: 5px;
 }
 #sec-pix2 {
     background: url(image/scan4.jpeg) no-repeat center center;
@@ -278,6 +279,8 @@ a:hover {
     height: 580px;
     position: relative;
     display: inline-flex;
+    margin-right: 10px;
+    margin-right: 5px;
 }
 #sec-pix3 {
     background: url(image/istockphoto-91584560-612x612.jpg) no-repeat center center;
@@ -287,6 +290,7 @@ a:hover {
     height: 580px;
     position: relative;
     display: inline-flex;
+    margin-right: 5px;
 }
 #sec-pix4 {
     background: url(image/preg.avif) no-repeat center center;
@@ -333,6 +337,13 @@ a:hover {
     animation-name: fpiczoom;
     animation-duration: 10s;
     animation-fill-mode: backwards;
+}
+#seccpic {
+    width: 40%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+    
 }
 #seccpic {
     width: 40%;
@@ -594,6 +605,28 @@ input[type=text] {
     border: 4px solid rgb(255, 215, 0);
 
   }
+  .Reset {
+        color: rgb(213, 222, 225);
+        background-color: rgb(237, 48, 48);
+        font-size: 30px;
+        border: 4px solid rgb(255, 215, 0);
+        padding: 4px;        
+            }
+  .Submit {
+    color: rgb(213, 222, 225);
+    background-color: rgb(12, 157, 113);
+    font-size: 30px;
+    border: 4px solid rgb(255, 215, 0);
+    padding: 4px;
+         }
+    #stage {
+        width: 50%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 4px solid rgb(255, 215, 0);
+    }
+
   #regright {
     width: 29%;
     height: 580px;
@@ -714,7 +747,7 @@ footer > p {
     .navigator{
         letter-spacing: 0.2px;
         font-size: 11px;
-        margin-left: 7rem;
+        margin-left: 5rem;
     }
     
     .navigator li{
@@ -725,7 +758,7 @@ footer > p {
     }
     .navigator a{
         text-decoration: none;
-        color: rgb(211, 190, 73);
+        color: rgb(245, 245, 245);
         border: 1px solid rgb(245, 245, 245);
         border-radius: 10%;
     
@@ -785,14 +818,17 @@ footer > p {
     #sec-pix1 {
         width: 22%;
         height: 200px;
+        margin-right: 1px;
     }
     #sec-pix2 {
         width: 22%;
         height: 200px;
+        margin-right: 1px;
     }
     #sec-pix3 {
         width: 22%;
         height: 200px;
+        margin-right: 1px;
     }
     #sec-pix4 {
         width: 22%;
@@ -883,27 +919,27 @@ footer > p {
         width: 100%;
     
     }
-#firstvid {
+    #firstvid {
         float: none;
-        width: 98%;
-        height: 300px;
+        width: 100%;
+        height: 400px;
         padding-right: 10px;
-        padding-top: 0px;
-        padding-left: 10px;
-        padding-bottom: 10px;
+        padding-left: 20px;
+        border: none;
     }
-    
-#firstpicc {
+    #firstvids {
+        width: 100%;
+        height: 400px;
+        background-size: cover;
+    }
+    #firstpicc {
         float: none;
-        width: 98%;
-        height: 300px;
-        padding-right: 0px;
-        padding-left: 50px;
-        padding-top: 10px;
-        display: block;
-        display: flex;
-        flex-direction: column;
-
+        width: 100%;
+        height: 400px;
+        padding-right: 20px;
+        margin-top: 80px;
+        border: 4px solid white;
+        padding-left: 20px;
     }
 #firstpic1 {
         width: 100%;
@@ -978,6 +1014,7 @@ footer > p {
     height: 300px;
     float: right;
     position: relative;
+    margin: 30px 0 30px 30px;
   }
   #register1 {
     width: 100%;
@@ -988,10 +1025,12 @@ footer > p {
     height: 300px;
     float: left;
     position: relative;
+    margin: 30px 30px 30px 30px;
   }
   #register2 {
     width: 100%;
     height: 300px;
+    
 
   }
   #regform{
@@ -1011,7 +1050,7 @@ form{
         width: 100%;
         height: 200px;
         border: 2px white;
-        padding-left: 40px;
+        padding-left: 30px;
         padding-right: 40px;
         float: left;
         margin-bottom: 20px;
