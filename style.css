@@ -64,7 +64,7 @@ a:hover {
 #bpic {
     background: url(image/may.webp) center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 600px;
     width: 100%;
     background-size: cover;
     /*this is part of the zoom settings*/
@@ -74,9 +74,8 @@ a:hover {
 }
 #zoomin {
     width: 100%;
-    height: 500px;
+    height: 600px;
     overflow: hidden;
-    margin: auto;
 }
 /*this create the zoom*/
     @keyframes bpiczoom {
@@ -516,10 +515,20 @@ a:hover {
     font-size: 30px;
     text-justify: auto;
     width: 40%;
+    border: 4px solid white;
+    
+}
+#reghead {
+    text-align: center;
+    margin-bottom: 20px;
+}
+form{
+    margin: 40px 40px 40px 40px;
+
 }
 #regform h1 {
     font-size: 40px;
-    text-align: left;
+    text-align: center;
     text-decoration-line: underline;
     right: 40px;
 }
@@ -580,30 +589,34 @@ input[type=text] {
 
   }
   #regright {
-    width: 30%;
+    width: 29%;
+    height: 580px;
     float: right;
+    position: relative;
+    display: inline-block;
   }
   #register1 {
     background: url(image/appoint.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
-    width: 22%;
+    width: 100%;
     height: 580px;
-    position: relative;
-    display: inline-flex
+
   }
   #regleft {
-    width: 30%;
+    width: 29%;
+    height: 580px;
     float: left;
+    position: relative;
+    display: inline-block;
   }
   #register2 {
     background: url(image/doctor.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
-    width: 22%;
+    width: 100%;
     height: 580px;
-    position: relative;
-    display: inline-flex
+
   }
   #regipix {
     width: 100%;
@@ -619,7 +632,7 @@ input[type=text] {
 
 
 #regipix1 {
-    background: url(image/father2.avif) no-repeat center center;
+    background: url(image/delii.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
     width: 22%;
@@ -628,7 +641,7 @@ input[type=text] {
     display: inline-flex;
 }
 #regipix2 {
-    background: url(image/deli.jpeg) no-repeat center center;
+    background: url(image/baby.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
     width: 22%;
@@ -646,7 +659,7 @@ input[type=text] {
     display: inline-flex;
 }
 #regipix4 {
-    background: url(image/baby.jpeg) no-repeat center center;
+    background: url(image/deli.jpeg) no-repeat center center;
     background-size: cover;
     border: 4px solid rgb(245, 245, 245);
     width: 22%;
@@ -710,13 +723,21 @@ footer > p {
     
     }
     #intro-text {
-        padding-left: 60px;
+        margin-left: 20px;
+
+    }
+    #intro {
+        width: 100%;
     }
     #firsttrim {
-        padding-left: 50px;
+        margin-left: 20px;
+    }
+    #fwords {
+        width: 100%;
     }
     #swords {
-        padding-left: 50px;
+        margin-left: 20px;
+        width: 100%;
     }
     #intro-pix {
         width: 100%;
@@ -881,18 +902,16 @@ footer > p {
         font-size: 150%;
     }
 #bpic {
-        background: url(image/may.webp) center;
-        background-repeat: no-repeat;
         height: 200px;
         width: 100%;
-        background-size: cover;
+
  
     }
 #zoomin {
         width: 100%;
         height: 200px;
         overflow: hidden;
-        margin: auto;
+
     }
        
 #fpic {
