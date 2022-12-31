@@ -20,6 +20,7 @@ body {
     padding-bottom: 1%;
     margin: auto;
     align-items: center;
+    text-align: center;
 }
 /*the main heading*/
 .mheading {
@@ -39,22 +40,21 @@ body {
 .navigator {
     letter-spacing: 2px;
     font-size: 30px;
-    margin-left: 40rem;
+    padding-left: 34%;
+
 }
 
 .navigator li {
     margin-right: 5px;
     list-style-type: none;
-    text-align: center;
-    padding: 0.4rem;
+    padding: 0.30rem;
     float: left;
-    
 }
 .navigator a {
     text-decoration: none;
     color: rgb(246, 249, 249);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    padding-right: 8rem;
 }
 a:hover {
     text-decoration: none;
@@ -715,6 +715,7 @@ input[type=text] {
     padding-top: 40px;
     position: static;
     display: flex;
+    background-blend-mode: hard-light;
 
 }
 footer > span {
