@@ -33,21 +33,18 @@ a registration form was included to enable the reader register for the online an
 
 
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+i have tested this site using W3 validator and found these errors (Error: Stray end tag head.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+From line 13, column 1; to line 13, column 7
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+"></form>↩</head>↩<body
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
+Error: Start tag body seen but an element of the same type was already open.
+
+From line 14, column 1; to line 14, column 6). but fter chanking site i have not been able to correct this as i didnt understand why the error came up.
 
 Validator Testing
 HTML
-No errors were returned when passing through the official W3C validator
-CSS
-No errors were found when passing through the official (Jigsaw) validator
-Unfixed Bugs
-You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
 
 Deployment
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub)
