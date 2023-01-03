@@ -764,27 +764,33 @@ footer > p {
     #intro-text {
         margin-left: 20px;
         margin-right: 20px;
-        font-size: 15px;
+        font-size: 10px;
 
     }
     #intro {
-        width: 100%;
+        width: 98%;
     }
     #firsttrim {
-        margin-left: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
         float: none;
-        width: 100%;
+        width: 98%;
+        
     }
     #fwords {
-        width: 100%;
+        width: 98%;
         margin-right: 20px;
+        margin-left: 20px;
+        float: none;
+        font-size: 10px;
     }
     #swords {
         margin-left: 20px;
-        width: 100%;
+        margin-right: 20px;
+        width: 98%;
     }
     #intro-pix {
-        width: 100%;
+        width: 98%;
         height: 200px;
         border: 2px white;
         padding-left: 20px;
@@ -793,24 +799,24 @@ footer > p {
         margin-bottom: 20px;
     }
     #intro-pix1 {
-        width: 22%;
+        width: 20%;
         height: 200px;
     }
     #intro-pix2 {
-        width: 22%;
+        width: 20%;
         height: 200px;
     }
     #intro-pix3 {
-        width: 22%;
+        width: 20%;
         height: 200px;
     }
     #intro-pix4 {
-        width: 22%;
+        width: 20%;
         height: 200px;
     }
     /*second trimester*/
     #secondt {
-        width: 100%;
+        width: 98%;
         height: 200px;
         border: 2px white;
         padding-left: 20px;
@@ -824,39 +830,57 @@ footer > p {
         margin-right: 1px;
     }
     #sec-pix2 {
-        width: 22%;
+        width: 20%;
         height: 200px;
         margin-right: 1px;
     }
     #sec-pix3 {
-        width: 22%;
+        width: 20%;
         height: 200px;
         margin-right: 1px;
     }
     #sec-pix4 {
-        width: 22%;
+        width: 20%;
         height: 200px;
     }
     #seccpic {
         display: flex;
         flex-direction: column;
-        width: 95%;
-        height: 300px;
-        padding-left: 50px;
+        width: 85%;
+        height: 200px;
+        padding-left: 60px;
+        padding-right: 40px;
+        border: none;
         }
     #seccpicc {
         display: flex;
         flex-direction: column;
-        width: 95%;
-        height: 300px;
-        padding-left: 50px;
+        width: 85%;
+        height: 200px;
+        padding-left: 60px;
+        padding-right: 40px;
+        border: none;
          }
     #seccpiccc {
         display: flex;
         flex-direction: column;
-        width: 95%;
-        height: 300px;
-        padding-left: 50px;
+        width: 85%;
+        height: 200px;
+        padding-left: 60px;
+        padding-right: 40px;
+        border: none;
+        }
+    #sec-pix5 {
+            width: 100%;
+            height: 200px;
+        }
+    #sec-pix6 {
+            width: 100%;
+            height: 200px;
+        }
+    #sec-pix7 {
+            width: 100%;
+            height: 200px;
         }
     #secwords {
             width: 100%;
@@ -874,10 +898,11 @@ footer > p {
     
         }
     #swords {
-            font-size: 17px;
+            font-size: 12px;
             margin-left: 30px;
             margin-right: 10px;
             margin-top: 0px;
+            float: none;
         }
         /*third trimester*/
     #thirdt {
@@ -889,7 +914,7 @@ footer > p {
     }
     
     #thirdpix{
-        width: 100%;
+        width: 98%;
         height: 200px;
         border: 2px white;
         padding-left: 40px;
@@ -924,30 +949,30 @@ footer > p {
     }
     #firstvid {
         float: none;
-        width: 100%;
-        height: 400px;
-        padding-right: 10px;
+        width: 98%;
+        height: 200px;
+        padding-right: 20px;
         padding-left: 20px;
+        padding-top: 10px;
         border: none;
     }
     #firstvids {
         width: 100%;
-        height: 400px;
+        height: 200px;
         background-size: cover;
     }
     #firstpicc {
         float: none;
-        width: 95%;
-        height: 300px;
+        width: 98%;
+        height: 200px;
         padding-right: 20px;
         padding-left: 20px;
-        margin-top: 80px;
+        margin-top: 10px;
         border: 4px solid white;
-        padding-left: 20px;
     }
 #firstpic1 {
         width: 100%;
-        height: 300px;
+        height: 200px;
     }
 
    
